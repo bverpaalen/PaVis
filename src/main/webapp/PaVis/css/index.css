@@ -1,0 +1,34 @@
+h2{
+    color:red;
+}
+
+svg{
+    border-style: solid;
+}
+
+polyline {
+
+    opacity: 0;
+}
+
+.gene{
+    opacity: 0;
+}
+
+.sequence{
+    opacity: 0;
+    background-color: floralwhite;
+}
+.gene:hover{
+    fill:black !important;
+    opacity: 1;
+}
+
+.gene:active{
+    fill:black !important;
+}
+
+.gene:disabled{
+    fill:red !important;
+    opacity: 0;
+}
